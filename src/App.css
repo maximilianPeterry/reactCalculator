@@ -1,0 +1,46 @@
+.result {
+  height: 17.3vh;
+  background-color: rosybrown;
+  display: flex;
+  align-items: center;
+}
+.result p {
+  font-size: 7vh;
+  margin: 0.5vh;
+}
+
+.button {
+  display: block;
+}
+
+button {
+  font-size: 7vh;
+  width: 25%;
+  height: 14vh;
+  border-radius: 30%;
+  background-color: thistle;
+}
+.joined-body {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator-body {
+  width: 40%;
+  background-color: lavender;
+}
+
+
+h1 {
+  font-size: 10vh;
+  display: flex;
+  justify-content: center;
+  margin: 0.5vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .calculator-body {
+    width: 100%;
+    background-color: lavender; 
+  }
+}

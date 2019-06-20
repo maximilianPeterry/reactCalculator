@@ -15,7 +15,7 @@
 
 button {
   font-size: 7vh;
-  width: 25%;
+  width: 23%;
   height: 14vh;
   border-radius: 30%;
   background-color: thistle;
@@ -38,7 +38,7 @@ h1 {
   margin: 0.5vh;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .calculator-body {
     width: 100%;
     background-color: lavender; 
